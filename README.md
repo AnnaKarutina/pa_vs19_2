@@ -11,3 +11,6 @@ Antud kursuse raames omandatakse baasteadmised programmeerimisest PHP keele alus
     * [github.com](https://github.com) repo loomine
     * PhpStorm Version Control Settings (git, github)
     * PhpStorm githubi repo kloneerimine arvutisse
+## Abiks
+* [README.md failide süntaks](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
+* [git kursus](https://www.codecademy.com/learn/learn-git) codecademy-is
