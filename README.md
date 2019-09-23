@@ -30,6 +30,17 @@ Lükka muudatused koos kirjeldustega kaugreposse
 ```
 git push -uf origin master
 ```
+
+* git kasutamine PhpStrom keskkonnas
+```
+VCS -> Commit (Ctrl + K)
+```
+* Vali failid, mille sisu on vaja commitida
+* Määra vastav kirjeldus
+* Committi ära -> Commit and Push
+  
+
+
 ## Abiks
 * [README.md failide süntaks](https://help.github.com/en/articles/basic-writing-and-formatting-syntax)
 * [git kursus](https://www.codecademy.com/learn/learn-git) codecademy-is
