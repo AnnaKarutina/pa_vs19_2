@@ -17,6 +17,9 @@
     th {
       background: orange;
     }
+    tr:nth-child(even) {
+      background: #f4f4f4;
+    }
   </style>
   <title>Operators</title>
 </head>
