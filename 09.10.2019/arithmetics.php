@@ -32,6 +32,8 @@
  * date: 09.10.2019;
  */
 // define variables
+use http\Message\Body;
+
 $x = 8;
 $y = 2;
 // additional variables
@@ -90,3 +92,6 @@ echo '
         </tbody>
     </table>
 ';
+?>
+</body>
+</html>
