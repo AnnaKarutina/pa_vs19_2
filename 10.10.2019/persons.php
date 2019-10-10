@@ -5,17 +5,17 @@
  * date: 10.10.2019;
  */
 // define variables
-$age = 5;
+$age = 75;
 echo 'Vanus = '.$age.'<br>';
-// 0 - 17 - laps
 if($age > 0 and $age < 18) {
+  // 0 - 17 - laps
   echo 'Oled laps<br>';
-}
-// 18 - 65 - täiskasvanu
-if($age > 17 and $age < 66) {
+} else if($age > 17 and $age < 66) {
+  // 18 - 65 - täiskasvanu
   echo 'Oled täiskasvanu<br>';
-}
-// 66 > - senioor
-if($age > 65) {
+} else if($age > 65) {
+  // 66 > - senioor
   echo 'Oled senioor<br>';
+} else {
+  echo 'midagi on valesti<br>';
 }
