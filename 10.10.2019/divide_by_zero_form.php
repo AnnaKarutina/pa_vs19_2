@@ -5,7 +5,7 @@
  * date: 10.10.2019;
  */
 ?>
-<form action="">
+<form action="divide_by_zero_action.php" method="get">
   <div class="input-group">
     <label for="numberOne">Sisesta 1. arv: </label>
     <input type="text" id="numberOne" name="numberOne">
