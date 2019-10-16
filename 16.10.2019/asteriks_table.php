@@ -11,11 +11,7 @@ for($row = 1; $row < 6; $row++) {
     echo '&nbsp;&nbsp;&nbsp;';
   }
 //  asterikses - left
-  for($col = 1; $col <= $row; $col++) {
-    echo '*&nbsp;';
-  }
-  //  asterikses - right
-  for($col = 1; $col <= ($row-1); $col++) {
+  for($col = 1; $col <= ($row * 2 - 1); $col++) {
     echo '*&nbsp;';
   }
   echo '<br>';
