@@ -15,14 +15,14 @@ if(strlen($nation) > 0 and strlen($age) > 0 and strlen($edu) > 0){
     if($age < 18) {
       echo 'Oled liiga noor<br>';
     } else {
-      if($edu != 'pohi' and $edu != 'kesk' and $edu != 'korg' and $edu != 'kutse') {
-        echo 'haridustase ei ole sobilik<br>';
-      }
-      else {
+      if($edu == 'pohi' or $edu == 'kesk' or $edu == 'korg' or $edu == 'kutse') {
         echo 'Kodakontsus - '.$nation.'<br>';
         echo 'Vanus - '.$age.'<br>';
         echo 'Haridus - '.$edu.'haridus<br>';
         echo 'Sobivus.';
+      }
+      else {
+        echo 'haridustase ei ole sobilik<br>';
       }
     }
   }
