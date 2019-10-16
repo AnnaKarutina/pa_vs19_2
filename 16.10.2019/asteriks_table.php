@@ -6,7 +6,7 @@
  */
 for($row = 1; $row < 6; $row++) {
   echo $row;
-  for($col = 1; $col < 6; $col++) {
+  for($col = 1; $col <= $row; $col++) {
     echo '*&nbsp;';
   }
   echo '<br>';
