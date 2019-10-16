@@ -10,8 +10,12 @@ for($row = 1; $row < 6; $row++) {
   for($col = 1; $col < (6-$row); $col++) {
     echo '&nbsp;&nbsp;&nbsp;';
   }
-//  asterikses
+//  asterikses - left
   for($col = 1; $col <= $row; $col++) {
+    echo '*&nbsp;';
+  }
+  //  asterikses - right
+  for($col = 1; $col <= ($row-1); $col++) {
     echo '*&nbsp;';
   }
   echo '<br>';
