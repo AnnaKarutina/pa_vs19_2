@@ -7,19 +7,31 @@
 // define function
 function isPrime($number){
   if($number < 2) {
-    return 'This number is not valid';
+    $result = 'this number is not valid';
   } else {
     $divider = 2;
     while ($number % $divider != 0) {
       $divider++;
     }
     if($number == $divider) {
-      return $number.' is prime number<br>';
+      $result = true;
     } else {
-      return $number.' is not a prime number<br>';
+      $result = false;
     }
   }
+  return $result;
+}
+function description($number) {
+  echo $number;
+  //  if(isPrime($number) == true){} is the same like next row
+  if(isPrime($number) === true){
+    echo ' is prime';
+  } else if(isPrime($number) === false){
+    echo ' is not prime';
+  } else {
+    echo ' - '.isPrime($number);
+  }
+  echo '<br>';
 }
 // use function
-$result = isPrime(rand(0, 99));
-echo $result;
+description(rand(0,99));
